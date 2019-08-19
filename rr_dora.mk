@@ -19,8 +19,11 @@ $(call inherit-product, device/sony/dora/device.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-PRODUCT_NAME := aosp_f8131
+# Inherit RR vendor 
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
+
+PRODUCT_NAME := rr_dora
 PRODUCT_DEVICE := dora
-PRODUCT_MODEL := Xperia X Performance (AOSP)
+PRODUCT_MODEL := Xperia X Performance
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
