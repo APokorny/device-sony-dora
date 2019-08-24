@@ -26,7 +26,7 @@
     <item name="modem.controller.rx">163.8</item>
     <item name="modem.controller.tx">87.9</item>
     <item name="modem.controller.voltage">0.72</item>
-    <array name="cpu.speeds.cluster0">
+    <array name="cpu.core_speeds.cluster0">
         <value>307200</value>
         <value>422400</value>
         <value>480000</value>
@@ -44,7 +44,7 @@
         <value>1478400</value>
         <value>1593600</value>
     </array>
-    <array name="cpu.speeds.cluster1">
+    <array name="cpu.core_speeds.cluster1">
         <value>307200</value>
         <value>403200</value>
         <value>480000</value>
@@ -71,8 +71,8 @@
         <value>2073600</value>
         <value>2150400</value>
     </array>
-    <item name="cpu.idle">4</item>
-    <array name="cpu.active.cluster0">
+    <item name="cpu.suspend">4</item>
+    <array name="cpu.core_power.cluster0">
         <value>43</value>
         <value>44</value>
         <value>46</value>
@@ -90,7 +90,7 @@
         <value>130</value>
         <value>152</value>
     </array>
-    <array name="cpu.active.cluster1">
+    <array name="cpu.core_power.cluster1">
         <value>45</value>
         <value>47</value>
         <value>50</value>
@@ -121,7 +121,7 @@
         <value>2</value>
         <value>2</value>
     </array>
-    <item name="cpu.awake">46.45</item>
+    <item name="cpu.idle">46.45</item>
     <item name="battery.capacity">2700</item>
     <item name="wifi.controller.idle">3</item>
     <item name="wifi.controller.rx">185</item>
